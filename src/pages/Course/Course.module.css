@@ -1,0 +1,7 @@
+.course_img_wrapper {
+    height: 170px;
+}
+
+.course_text {
+    color: var(--text-secondary);
+}

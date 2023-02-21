@@ -1,0 +1,11 @@
+.card_img_top {
+    max-width: 150px;
+}
+
+.coupon_btn,
+.coupon_btn:hover,
+.coupon_btn:focus {
+    min-width: auto;
+    color: var(--primary);
+    text-decoration: underline;
+}

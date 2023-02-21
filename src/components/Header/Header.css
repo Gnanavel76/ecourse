@@ -1,0 +1,39 @@
+.main-navbar {
+    background: linear-gradient(to bottom, #fff 30%, transparent);
+    backdrop-filter: blur(2px);
+}
+
+.main-navbar .nav-link {
+    padding: 0.25rem 0rem;
+    margin-top: 0.8rem;
+    font-size: 1.1rem;
+}
+
+.main-navbar .nav-link.auth-btn {
+    padding: 0.2rem 0rem;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    min-width: 200px;
+}
+
+.main-navbar .nav-link.auth-btn:hover,
+.main-navbar .nav-link.active {
+    color: var(--primary) !important;
+}
+
+.main-navbar .dropdown-menu {
+    top: 145%;
+}
+
+.main-navbar .navbar-brand {
+    font-family: "Lobster", cursive;
+    font-size: 1.6rem;
+}
+
+@media screen and (min-width: 992px) {
+    .main-navbar .nav-link {
+        padding: 0.25rem 1rem;
+        margin-top: 0;
+        font-size: 1.1rem;
+    }
+}

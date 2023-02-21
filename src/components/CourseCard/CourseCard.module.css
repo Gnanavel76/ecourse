@@ -1,0 +1,15 @@
+.course_title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    min-height: 48px;
+}
+
+.course_img_wrapper {
+    height: 170px;
+}
+
+.course_text {
+    color: var(--text-secondary);
+}

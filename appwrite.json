@@ -1,0 +1,36 @@
+{
+    "projectId": "63f0c5105f67e10ccb4d",
+    "projectName": "ECourse",
+    "functions": [
+        {
+            "$id": "63f214b8b4e4f29cfaf9",
+            "name": "validateCoupon",
+            "runtime": "node-16.0",
+            "path": "functions/validateCoupon",
+            "entrypoint": "src/index.js",
+            "ignore": [
+                "node_modules",
+                ".npm"
+            ],
+            "execute": [],
+            "events": [],
+            "schedule": "",
+            "timeout": 15
+        },
+        {
+            "$id": "63f22d053137ebda62e7",
+            "name": "createPaymentOrder",
+            "runtime": "node-16.0",
+            "path": "functions/createPaymentOrder",
+            "entrypoint": "src/index.js",
+            "ignore": [
+                "node_modules",
+                ".npm"
+            ],
+            "execute": [],
+            "events": [],
+            "schedule": "",
+            "timeout": 15
+        }
+    ]
+}
